@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"
+    integrity="sha256-jl1+DOsSs9uABTKppOJ2GF8kXoc3XQzBtFFyS0i9Xoo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Noe's Resume</title>
+</head>
+
+<body>
+  <div id="content"></div>
+  <script>
+    fetch('./index.md')
+      .then(response => response.text())
+      .then((data) => {
+        const conv = new showdown.Converter({
+          emoji:true,
+        });
+        document.getElementById('content').innerHTML = conv.makeHtml(data);
+      })
+  </script>
+</body>
+
+</html>
