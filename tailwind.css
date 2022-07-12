@@ -8,6 +8,10 @@
     @apply font-serif text-lg mx-auto print:text-sm tracking-wide;
   }
 
+  a {
+    @apply text-indigo-700 hover:text-indigo-200;
+  }
+
   h1 {
     @apply text-5xl md:pl-5;
   }
@@ -17,15 +21,15 @@
   }
 
   p > code {
-    @apply text-gray-500 mr-0 float-right text-base mt-1;
+    @apply text-gray-500 mr-0 float-right text-base mt-1 print:text-xs;
   }
 
   h3 {
-    @apply md:float-left ml-[-160px] font-bold text-indigo-500;
+    @apply md:float-left ml-[-12rem] font-bold text-indigo-500;
   }
 
   h2 {
-    @apply ml-[-160px] text-xl font-extrabold text-indigo-700;
+    @apply ml-[-12rem] text-xl font-extrabold text-indigo-700;
   }
   
   h4 {
