@@ -10,17 +10,17 @@
 
 ## :information_source: About
 
-Mexico-based web developer with more than 7 years of experience. I am interested in delivering worth through fitting technology. Going from Java to **NodeJs** and some **TypeScript** in between, I consider myself a pragmatic programmer, capable of using the right tool for the job. My strongest stack at the moment is **React JS**, but my curiosity is not limited to it.
+Mexico-based web developer with more than 7 years of experience. I am interested in delivering worth through fitting technology. Going from Java to **NodeJs** and some **TypeScript** in between, I consider myself a pragmatic programmer, capable of using the right tool for the job. My strongest stack at the moment is **React JS**, but I enjoy learning new technologies/languages and the last *blazingly fast* framework.
 
 ## :construction: Working Experience
 
 `January 2022 - present`
 __Frontend Engineer - Contractor__, [Encora](https://www.encora.com)
 
-I've been partnering with Encora for about half a year, offering my software engineering skills as a contractor. 
+I've been partnering with Encora for about half a year, offering my software engineering skills as a contractor. At the moment I'm collaborating with Aspiration. 
 
 __Frontend Engineer - Contractor__, [Aspiration](https://www.aspiration.com)
-- Take part in sprint grooming and planning. T-shirt sizing new product and tech initiatives.
+- Take part in sprint grooming, planning and correctly estimating and dividing the given user stories into workable tickets. Close cooperation with the corresponding product owners and designers. Keeping the code base clean and ensuring good practices through peer pull request reviews. 
 
 `January 2021 - January 2022`
 __Frontend Engineer__, [iQKitchen](https://iqkitchen.co/)

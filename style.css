@@ -389,7 +389,7 @@ video {
   @media print {
 
   body {
-    margin-top: 3rem;
+    margin-top: 1.25rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
@@ -494,7 +494,7 @@ video {
   @media print {
 
   h2 {
-    margin-left: -2rem;
+    margin-left: 0px;
   }
 }
   
@@ -795,7 +795,6 @@ video {
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
-
 .hover\:text-indigo-200:hover {
   --tw-text-opacity: 1;
   color: rgb(199 210 254 / var(--tw-text-opacity));

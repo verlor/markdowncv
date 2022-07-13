@@ -5,7 +5,7 @@
 @layer base {
 
   body {
-    @apply p-2 font-serif text-sm lg:text-lg mx-auto print:text-sm print:mt-12 tracking-wide;
+    @apply p-2 font-serif text-sm lg:text-lg mx-auto print:text-sm print:mt-5 tracking-wide;
   }
 
   a {
@@ -29,7 +29,7 @@
   }
 
   h2 {
-    @apply lg:ml-[-13rem] print:ml-[-2rem] text-xl font-extrabold text-indigo-700;
+    @apply lg:ml-[-13rem] print:ml-0 text-xl font-extrabold text-indigo-700;
   }
   
   h4 {
