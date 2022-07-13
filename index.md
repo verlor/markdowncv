@@ -8,11 +8,11 @@
 </div>
 
 
-### About
+## :information_source: About
 
-Mexico-based web developer with more than 7 years of experience. I am interested in delivering worth through fitting technology. Going from Java to NodeJs, I consider myself a pragmatic programmer, capable of using the right tool for the job.
+Mexico-based web developer with more than 7 years of experience. I am interested in delivering worth through fitting technology. Going from Java to **NodeJs** and some **TypeScript** in between, I consider myself a pragmatic programmer, capable of using the right tool for the job. My strongest stack at the moment is **React JS**, but my curiosity is not limited to it.
 
-## Working Experience
+## :construction: Working Experience
 
 `January 2022 - present`
 __Frontend Engineer - Contractor__, [Encora](https://www.encora.com)
@@ -47,7 +47,7 @@ __Fullstack Engineer__, GBMobile
 
 - Backend development employing JavaEE, Struts framework and Hibernate. Frontend development using JQuery, Java PrimeFaces framework and raw CSS.
 
-## Education
+## :book: Education
 
 `2019 - 2021`
 __MS in Computational Chemistry__, [UAM-I](http://www.iztapalapa.uam.mx/), Mexico City.

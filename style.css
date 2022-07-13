@@ -371,15 +371,25 @@ video {
   body {
   margin-left: auto;
   margin-right: auto;
+  padding: 0.5rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   letter-spacing: 0.025em;
+}
+
+  @media (min-width: 1024px) {
+
+  body {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
   @media print {
 
   body {
+    margin-top: 3rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
@@ -400,7 +410,7 @@ video {
   line-height: 1;
 }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
 
   h1 {
     padding-left: 1.25rem;
@@ -412,7 +422,7 @@ video {
   text-align: justify;
 }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
 
   p {
     padding-left: 1.25rem;
@@ -423,10 +433,18 @@ video {
   float: right;
   margin-right: 0px;
   margin-top: 0.25rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+  @media (min-width: 1024px) {
+
+  p > code {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
   @media print {
@@ -438,26 +456,46 @@ video {
 }
 
   h3 {
-  margin-left: -12rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
 
   h3 {
     float: left;
+    margin-left: -13rem;
+  }
+}
+
+  @media print {
+
+  h3 {
+    margin-left: -2rem;
   }
 }
 
   h2 {
-  margin-left: -12rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 800;
   --tw-text-opacity: 1;
   color: rgb(67 56 202 / var(--tw-text-opacity));
+}
+
+  @media (min-width: 1024px) {
+
+  h2 {
+    margin-left: -13rem;
+  }
+}
+
+  @media print {
+
+  h2 {
+    margin-left: -2rem;
+  }
 }
   
   h4 {
@@ -468,7 +506,7 @@ video {
   color: rgb(67 56 202 / var(--tw-text-opacity));
 }
   
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
 
   h4 {
     padding-left: 1.25rem;
@@ -477,9 +515,10 @@ video {
 
   ul {
   max-width: 72rem;
+  text-align: justify;
 }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
 
   ul {
     padding-left: 1.25rem;
@@ -702,7 +741,7 @@ video {
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   #content {
     max-width: 48rem;
@@ -713,7 +752,7 @@ video {
   --tw-text-opacity: 1;
   color: rgb(67 56 202 / var(--tw-text-opacity));
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   .webaddress {
     padding-left: 1.25rem;
@@ -756,6 +795,7 @@ video {
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+
 .hover\:text-indigo-200:hover {
   --tw-text-opacity: 1;
   color: rgb(199 210 254 / var(--tw-text-opacity));
