@@ -24,6 +24,8 @@ Managed the development of a new toy product for children.
 
 ### resources
 
+small test change
+
 tailwind css + print
 https://www.mailslurp.com/blog/tailwind-print-styles-custom-media-query/?hmsr=joyk.com&utm_source=joyk.com&utm_medium=referral
 
